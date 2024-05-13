@@ -1,84 +1,413 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Demystifying Email Design</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body style="margin: 0; padding: 0;">
-	<table border="0" cellpadding="0" cellspacing="0" width="100%">	
-		<tr>
-			<td style="padding: 10px 0 30px 0;">
-				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 0px solid #cccccc; border-collapse: collapse;">
-                    <tr >
-                        <td style="margin: 0 auto; text-align: center" align="center">
-                            <div>
-                                <img src="https://i.ibb.co/Lvf0ZHZ/logo.png" alt="logo"/>
-                            </div>
-                        </td> 
-                    </tr>
-                    <tr>
-                        <td>
-                            <table>
-                                <tr>
-                                    <td style="width: 30%">
-                                        <img src="https://i.ibb.co/h7dMjZC/photo-person.png" alt="person-photo" style="width: auto;"/>
-                                    </td>
-                                    <td style="width: 70%; border-top: 4px solid #334d64; border-right: 12px solid #255279; text-align: left; padding-left: 15px;">
-                                        <p style="color: #156fbd; font-size: 28px; font-weight: 800; font-family: Arial, sans-serif; margin: 0 0">Lou Naser</p>
-                                        <span style="display: block; font-size: 16px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">managing partner</span>
-                                        <p>
-                                            <span style="display: block; padding: 3px 0 ;font-size: 14px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">
-                                                P : +408-236-7630
-                                            </span>
-                                            <span style="display: block; padding: 3px 0;font-size: 14px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">
-                                                E : Inaser@globalwealthpartnersinc.com
-                                            </span>
-                                            <span style="display: block; padding: 3px 0; font-size: 14px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">
-                                                W: GlobalWealthPartnersInc.com
-                                            </span>
-                                        </p>
-                                        
-                                        <p>
-                                            <span style="display: block; font-size: 19px; font-weight: 300; font-family: Arial, sans-serif; color: #156fbd">
-                                                Adress
-                                            </span>
-                                            <span style="display: block; font-size: 16px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">
-                                                1764 The Alameda, San Jose, Ca, 95126
-                                            </span>
-                                            <span style="display: block; font-size: 14px; font-weight: 300; font-family: Arial, sans-serif; color: #5d5d5d">
-                                                Global Wealth PartnersInc,
-                                            </span>
-                                        </p>
-                                        <div style="text-align: right; background-color: #255279; padding: 10px; border-bottom-left-radius: 30px; border-top-left-radius: 30px ">
-                                            <div style="text-align: center">
-                                                <a target="_blank" href="https://www.GlobalWealthPartnersInc.com" style="text-decoration: none;">
-                                                    <img alt="facebook" src="https://i.ibb.co/HgwLwyg/11-facebook-Icon.png" style="width: 8%; padding: 0 5px;"/>
-                                                </a>
-                                                <a target="_blank" href="https://www.GlobalWealthPartnersInc.com" style="text-decoration: none;">
-                                                    <img alt="whatsapp" src="https://i.ibb.co/3B4DfWh/10-whatsapp-Icon.png" style="width: 8%; padding: 0 5px;"/>
-                                                </a>
-                                                <a target="_blank" href="https://www.GlobalWealthPartnersInc.com" style="text-decoration: none;">
-                                                    <img alt="whatsapp" src="https://i.ibb.co/PFLZdpW/13-linked-Icon.png" style="width: 8%; padding: 0 5px;"/>
-                                                </a>
-                                                
-                                            </div>
-                                        </div>
-                                    </td>
-                                    
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Demystifying Email Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: verdana, sans-serif, arial;
+      }
 
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-					<tr>
-						
-					</tr>
-					
-					
-				</table>
-			</td>
-		</tr>
-	</table>
-</body>
+      .table-size-media {
+        width: 600px !important;
+      }
+
+      .table-size-media tr {
+        border: 0;
+      }
+
+      .table-size-media tr td {
+        border: 0;
+      }
+
+      .font-size-res {
+        font-size: 15px;
+        line-height: 1.5;
+      }
+
+      .font-size-large-res {
+        font-size: 20px !important;
+      }
+
+      .appoint-res {
+        padding: 14px 0;
+        line-height: 26px;
+      }
+
+      .line-height-res {
+        line-height: 21px;
+      }
+
+      .font-size-small {
+        font-size: 12px !important;
+        line-height: 16px;
+      }
+      .top-box-shadow {
+        box-shadow: -2px 2px 4px #818181;
+        -webkit-box-shadow: -2px 2px 4px #818181;
+        -o-box-shadow: -2px 2px 4px #818181;
+        -ms-box-shadow: -2px 2px 4px #818181;
+        -moz-box-shadow: -2px 2px 4px #818181;
+      }
+      .hover-img {
+        width: 87%;
+        transition: all 0.3s ease-in-out;
+      }
+      .hover-img:hover {
+        width: 100%;
+      }
+      .res-padding-btn {
+        padding: 8px 30px !important;
+      }
+      .small-table-res {
+        width: 40% !important;
+      }
+      @media only screen and (max-width: 620px) {
+        .table-size-media {
+          width: 501px !important;
+        }
+
+        .font-size-res {
+          font-size: 13px;
+        }
+
+        .font-size-large-res {
+          font-size: 18px !important;
+        }
+
+        .appoint-res {
+          padding: 12px 0;
+          line-height: 24px;
+        }
+
+        .line-height-res {
+          line-height: 20px;
+        }
+
+        .font-size-small {
+          font-size: 11px !important;
+          line-height: 15px;
+        }
+        .res-padding-btn {
+          padding: 6px 26px !important;
+        }
+        .small-table-res {
+          width: 45% !important;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .table-size-media {
+          width: 398px !important;
+        }
+
+        .font-size-res {
+          font-size: 11px;
+        }
+
+        .font-size-large-res {
+          font-size: 16px !important;
+        }
+
+        .appoint-res {
+          padding: 10px 0;
+          line-height: 22px;
+        }
+
+        .line-height-res {
+          line-height: 18px;
+        }
+
+        .font-size-small {
+          font-size: 10px !important;
+          line-height: 14px;
+        }
+        .res-padding-btn {
+          padding: 4px 24px !important;
+        }
+        .small-table-res {
+          width: 50% !important;
+        }
+      }
+
+      @media only screen and (max-width: 414px) {
+        .table-size-media {
+          width: 310px !important;
+        }
+
+        .font-size-res {
+          font-size: 9px;
+        }
+
+        .font-size-large-res {
+          font-size: 14px !important;
+        }
+
+        .appoint-res {
+          padding: 8px 0;
+          line-height: 18px;
+        }
+
+        .line-height-res {
+          line-height: 16px;
+        }
+
+        .font-size-small {
+          font-size: 9px !important;
+          line-height: 13px;
+        }
+        .res-padding-btn {
+          padding: 2px 16px !important;
+        }
+        .small-table-res {
+          width: 55% !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <table
+      style="border: 0; text-align: center; width: 100%"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+    >
+      <tr>
+        <td style="padding: 10px 0 30px 0">
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            class="table-size-media"
+            style="
+              border: 0 solid #fff;
+              width: 600px;
+              border-collapse: collapse;
+              text-align: center;
+              margin: 0 auto;
+              overflow: hidden;
+              background: #fff;
+              position: relative;
+            "
+          >
+            <tr>
+              <td style="margin: 0 auto; text-align: center">
+                <div>
+                  <img src="img/logo.png" alt="logo" style="width: 40%" />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table>
+                  <tr>
+                    <td style="width: 35%">
+                      <img
+                        src="img/photo-person.png"
+                        alt="person-photo"
+                        style="width: 100%"
+                      />
+                    </td>
+                    <td
+                      style="
+                        width: 65%;
+                        border-top: 4px solid #334d64;
+                        border-right: 12px solid #255279;
+                        text-align: left;
+                        padding-left: 15px;
+                      "
+                    >
+                      <p
+                        style="
+                          color: #156fbd;
+                          font-size: 18px;
+                          font-weight: 800;
+                          margin: 16px 0 0 0;
+                        "
+                      >
+                        Lou Naser
+                      </p>
+                      <p style="margin: 4px 0 15px;">
+                        <span
+                          style="
+                            display: block;
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: #5d5d5d;
+                          "
+                        >
+                          managing partner
+                        </span>
+                      </p>
+                      <p style="margin: 8px 5px">
+                        <a
+                          class="font-size-small"
+                          href="tel:00408-236-7630"
+                          style="text-decoration: none"
+                        >
+                          <img
+                            src="https://asmaaebeed.github.io/agilio/img/icon-whats.png"
+                            alt="whatsApp"
+                            style="
+                              width: 15px;
+                              background-color: #5d5d5d;
+                              border-radius: 15px;
+                              display: inline;
+                            "
+                          />
+                          <span
+                            style="
+                              padding: 3px 0;
+                              font-size: 12px;
+                              font-weight: 300;
+                              color: #5d5d5d;
+                            "
+                          >
+                            +408-236-7630
+                          </span>
+                        </a>
+                      </p>
+                      <p style="margin: 8px 5px">
+                        <a
+                          class="font-size-small"
+                          href="mailto:GlobalWealthPartnersInc.com"
+                          style="text-decoration: none; color: #fff"
+                        >
+                          <img
+                            src="https://asmaaebeed.github.io/agilio/img/icon-email.png"
+                            alt="mail"
+                            style="
+                              width: 15px;
+                              background-color: #5d5d5d;
+                              border-radius: 15px;
+                              display: inline;
+                            "
+                          />
+                          <span
+                            style="
+                              padding: 3px 0;
+                              font-size: 12px;
+                              font-weight: 300;
+                              color: #5d5d5d;
+                            "
+                          >
+                            Inaser@globalwealthpartnersinc.com
+                          </span>
+                        </a>
+                      </p>
+
+                      <p style="margin: 8px 5px">
+                        <a
+                          href="https://GlobalWealthPartnersInc.com"
+                          target="_blank"
+                          style="
+                            text-decoration: none;
+                            color: #fff;
+                            display: block;
+                          "
+                          class="font-size-small"
+                        >
+                          <img
+                            src="https://asmaaebeed.github.io/agilio/img/icon-website.png"
+                            alt="website"
+                            style="
+                              width: 15px;
+                              background-color: #5d5d5d;
+                              border-radius: 15px;
+                              display: inline;
+                            "
+                          />
+
+                          <span
+                            style="
+                              padding: 3px 0;
+                              font-size: 12px;
+                              font-weight: 300;
+                              color: #5d5d5d;
+                            "
+                          >
+                            GlobalWealthPartnersInc.com
+                          </span>
+                        </a>
+                      </p>
+
+                      <p>
+                        <img
+                          src="https://asmaaebeed.github.io/shopappyemailtemplate/img/09-location-icon.png" style="width: 15px;"
+                        />
+                        <span
+                          style="
+                            font-size: 12px;
+                            font-weight: 300;
+                            color: #5d5d5d;
+                          "
+                        >
+                          1764 The Alameda, San Jose, Ca, 95126
+                        </span>
+                        <span
+                          style="
+                            font-size: 12px;
+                            font-weight: 300;
+                            color: #5d5d5d;
+                          "
+                        >
+                          Global Wealth PartnersInc,
+                        </span>
+                      </p>
+                      <div
+                        style="
+                          text-align: right;
+                          background-color: #255279;
+                          padding: 10px;
+                          border-bottom-left-radius: 30px;
+                          border-top-left-radius: 30px;
+                        "
+                      >
+                        <div style="text-align: center">
+                          <a
+                            target="_blank"
+                            href="https://www.GlobalWealthPartnersInc.com"
+                            style="text-decoration: none"
+                          >
+                            <img
+                              alt="facebook"
+                              src="img/11-facebook-Icon.png"
+                              style="width: 8%; padding: 0 5px"
+                            />
+                          </a>
+                          <a
+                            class="font-size-small"
+                            href="tel:00408-236-7630"
+                            style="text-decoration: none"
+                          >
+                            <img
+                              alt="whatsapp"
+                              src="img/10-whatsapp-Icon.png"
+                              style="width: 8%; padding: 0 5px"
+                            />
+                          </a>
+                          <a
+                            target="_blank"
+                            href="https://www.GlobalWealthPartnersInc.com"
+                            style="text-decoration: none"
+                          >
+                            <img
+                              alt="whatsapp"
+                              src="img/13-linked-Icon.png"
+                              style="width: 8%; padding: 0 5px"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
